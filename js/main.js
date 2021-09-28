@@ -1,7 +1,7 @@
-function getNumbers (from,two) {
-    for (let i = from ; i <= two; i++) {
+function getNumbers (from, to) {
+    for (let i = from; i <= to; i++) {
      //result = (i=>0)  ? i : "число должно быть не меньше нуля" 
-        if(i=>0) {
+        if (i >= 0) {
             console.log(i);
         } else {
             console.log("число должно быть не меньше нуля");
@@ -17,4 +17,4 @@ function getMaxRangeComment (line, maxrange) {
     }
   return false;
 }
-  getMaxRangeComment();
+getMaxRangeComment();
