@@ -1,8 +1,3 @@
-//import { getRandomPositiveInteger } from'./get-random-positive-integer.js';
-//import { createComment } from './createComment.js';
-//import { createObject } from './utils/create-object.js';
-//import { generateObjects } from './utils/generate-objects.js';
-
 const OBJESTS_TO_GEN = 25;
 const MESSAGES = [
   'Всё отлично!', 'В целом всё неплохо. Но не всё',
