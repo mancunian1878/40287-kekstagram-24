@@ -1,3 +1,5 @@
+import {getRandomPositiveInteger} from '../utils/get-random-positive-integer';
+
 const OBJESTS_TO_GEN = 25;
 const MESSAGES = [
   'Всё отлично!', 'В целом всё неплохо. Но не всё',
@@ -35,9 +37,7 @@ const createObject = (id) => {
   };
 };
 
-export {createComment, createComment};
-
-export {
+export {createComment, createObject,
   OBJESTS_TO_GEN,
   MESSAGES,
   NAMES,
