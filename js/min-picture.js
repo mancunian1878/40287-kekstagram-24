@@ -39,3 +39,5 @@ const placePreviews = (pictures, onClick) => {
   removeChildren(PICTURES_LIST, '.picture');
   PICTURES_LIST.appendChild(renderAllPreviews(pictures));
 };
+
+export {placePreviews};
