@@ -1,3 +1,3 @@
-import './data/data.js';
-import './utils/get-random-positive-integer.js';
-
+import './data.js';
+import './utils.js';
+import 'min-picture.js';
