@@ -1,4 +1,6 @@
-const PICTURE_TEMPLATE = document.querySelector('#picture').content.querySelector('.picture'); //получаем шаблон изобраэения
+import {generateObjects} from "./data.js";
+
+const PICTURE_TEMPLATE = document.querySelector('#picture').content.querySelector('.picture'); //получаем шаблон изображения
 const PICTURES_LIST = document.querySelector('.pictures');
 
 const renderPreview = (data) => {
@@ -39,5 +41,8 @@ const placePreviews = (pictures, onClick) => {
   removeChildren(PICTURES_LIST, '.picture');
   PICTURES_LIST.appendChild(renderAllPreviews(pictures));
 };
+
+const PICTURES = generateObjects(25);
+placePreviews(PICTURES);
 
 export {placePreviews};
