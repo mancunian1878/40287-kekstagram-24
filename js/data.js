@@ -1,4 +1,4 @@
-import {getRandomPositiveInteger} from './utils';
+import {getRandomPositiveInteger} from './utils.js';
 
 const OBJECTS_TO_GEN = 25;
 const MESSAGES = [
