@@ -1,4 +1,4 @@
-import {generateObjects} from "./data.js";
+import {generateObjects} from './data.js';
 
 const PICTURE_TEMPLATE = document.querySelector('#picture').content.querySelector('.picture'); //получаем шаблон изображения
 const PICTURES_LIST = document.querySelector('.pictures');
